@@ -27,3 +27,22 @@ foundryup
 # Install or update dependencies
 forge install
 ```
+## or
+Build from Source Code:
+
+First, use rustup.rs to install the Rust compiler and Cargo package manager. Then, compile Foundry VTT from source code using the commands below:
+```bash
+# Clone
+git clone https://github.com/foundry-rs/foundry.git
+cd foundry
+# Install Forge
+cargo install --path ./crates/forge --profile local --force --locked
+# Install Cast
+cargo install --path ./crates/cast --profile local --force --locked
+# Install Anvil
+cargo install --path ./crates/anvil --profile local --force --locked
+# Install Chisel
+cargo install --path ./crates/chisel --profile local --force --locked
+```
+
+
