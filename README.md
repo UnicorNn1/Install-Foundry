@@ -27,7 +27,7 @@ foundryup
 # Install or update dependencies
 forge install
 ```
-## or
+## or Install-Foundry
 Build from Source Code:
 
 First, use rustup.rs to install the Rust compiler and Cargo package manager. Then, compile Foundry VTT from source code using the commands below:
