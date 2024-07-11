@@ -20,10 +20,11 @@ cd foundry
 ```
 ## Install-[Foundry](https://book.getfoundry.sh/getting-started/installation)
 After cloning the repository, run the following command to install the dependencies
-```bash
+```sh
 # Update forge packages
 foundryup
-
+```
+```sh
 # Install or update dependencies
 forge install
 ```
