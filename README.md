@@ -14,8 +14,10 @@ Install the latest (nightly) compiled binaries using the Foundryup command:
 foundryup
 ```
 3-Clone
-```bash
+```sh
 git clone https://github.com/foundry-rs/foundry.git
+```
+```sh
 cd foundry
 ```
 ## Install-[Foundry](https://book.getfoundry.sh/getting-started/installation)
